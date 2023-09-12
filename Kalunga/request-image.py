@@ -20,29 +20,19 @@ def download_image(url, save_folder):
 
 def main():
     image_urls = [
-
-        'https://img.kalunga.com.br/fotosdeprodutos/388907d.jpg',
-        'https://img.kalunga.com.br/fotosdeprodutos/388908d.jpg',
-        'https://img.kalunga.com.br/fotosdeprodutos/389558d.jpg',
-        'https://img.kalunga.com.br/fotosdeprodutos/389559d.jpg',
-        'https://img.kalunga.com.br/fotosdeprodutos/389560d.jpg',
-        'https://img.kalunga.com.br/fotosdeprodutos/389561d.jpg',
-        'https://img.kalunga.com.br/fotosdeprodutos/389567d.jpg',
-        'https://img.kalunga.com.br/fotosdeprodutos/389684d.jpg',
-        'https://img.kalunga.com.br/fotosdeprodutos/389686d.jpg',
-        'https://img.kalunga.com.br/fotosdeprodutos/391551d.jpg',
-        'https://img.kalunga.com.br/fotosdeprodutos/391556d.jpg',
-        'https://img.kalunga.com.br/fotosdeprodutos/391561d.jpg',
-        'https://img.kalunga.com.br/fotosdeprodutos/391678d.jpg',
-        'https://img.kalunga.com.br/fotosdeprodutos/391679d.jpg',
-        'https://img.kalunga.com.br/fotosdeprodutos/394102d.jpg',
-        'https://img.kalunga.com.br/fotosdeprodutos/394103d.jpg',
-        'https://img.kalunga.com.br/fotosdeprodutos/394104d.jpg',
-        'https://img.kalunga.com.br/fotosdeprodutos/394122d.jpg',
-        'https://img.kalunga.com.br/fotosdeprodutos/394159d.jpg',
-        'https://img.kalunga.com.br/fotosdeprodutos/394257d.jpg',
-        'https://img.kalunga.com.br/fotosdeprodutos/394259d.jpg'
-    ]
+        'https://img.kalunga.com.br/fotosdeprodutos/602564d.jpg',
+        'https://img.kalunga.com.br/fotosdeprodutos/602601d.jpg',
+        'https://img.kalunga.com.br/fotosdeprodutos/602624d.jpg',
+        'https://img.kalunga.com.br/fotosdeprodutos/602747d.jpg',
+        'https://img.kalunga.com.br/fotosdeprodutos/602748d.jpg',
+        'https://img.kalunga.com.br/fotosdeprodutos/602749d.jpg',
+        'https://img.kalunga.com.br/fotosdeprodutos/602823d.jpg',
+        'https://img.kalunga.com.br/fotosdeprodutos/603396d.jpg',
+        'https://img.kalunga.com.br/fotosdeprodutos/603397d.jpg',
+        'https://img.kalunga.com.br/fotosdeprodutos/603398d.jpg',
+        'https://img.kalunga.com.br/fotosdeprodutos/603399d.jpg',
+        'https://img.kalunga.com.br/fotosdeprodutos/603400d.jpg',
+]
 
     save_folder = 'downloaded_images'
     os.makedirs(save_folder, exist_ok=True)
