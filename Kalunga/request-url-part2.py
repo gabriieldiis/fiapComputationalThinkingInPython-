@@ -1,5 +1,5 @@
 import requests
-import sys
+
 
 lista_urls = [
 'https://img.kalunga.com.br/fotosdeprodutos/478159.jpg',
